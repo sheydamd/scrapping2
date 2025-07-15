@@ -1,16 +1,10 @@
 # Varzesh3 Search Automation with Selenium
 
-This project is a simple Python automation script using Selenium and Microsoft Edge. It opens the [Varzesh3](https://www.varzesh3.com) website, clicks the search icon, and searches for a specific keyword ("Barcelona").
-##  Requirements
+This project is a simple Python automation script using Selenium and Microsoft Edge. It opens the [Varzesh3](https://www.varzesh3.com) website, clicks the search icon, and searches for a specific keyword ("بارسلونا").
 
-To run this script, you’ll need the following:
-- Python packages:
-  - selenium
-  ##  Installation
+## Installation
 
-### 1. Installation
-
-`Terminal`
+`bash`
 - Make venv by using:
     - python -m venv .venv
 - active it by using:
@@ -28,7 +22,7 @@ import time
 # Running the Script
 
 Simply run the Python file by using:
-
+`bash`
 python main.py
  
  make sure your venv being active
